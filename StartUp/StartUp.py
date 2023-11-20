@@ -1,6 +1,6 @@
 import threading,webbrowser
 from flask import Flask
-app = Flask(__name__, static_folder='View/static', static_url_path='View/templates')
+app = Flask(__name__, static_folder='/View/static', static_url_path='/View/templates')
 
 # 初期画面表示
 @app.route('/')
